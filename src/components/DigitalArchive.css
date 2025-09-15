@@ -1,0 +1,72 @@
+.DigitalArchive {
+  padding: 3rem 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.DigitalArchive__title {
+  font-size: 2rem;
+  color: #2e3b55;
+  margin-bottom: 0.5rem;
+}
+
+.DigitalArchive__description {
+  font-size: 1.125rem;
+  color: #555;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.DigitalArchive__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .DigitalArchive__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .DigitalArchive__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.DigitalArchive__card {
+  background-color: #f9fafb;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgb(0 0 0 / 0.1);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.DigitalArchive__card:hover {
+  transform: translateY(-5px);
+}
+
+.DigitalArchive__image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.DigitalArchive__card-title {
+  font-size: 1.125rem;
+  color: #2e3b55;
+  margin-bottom: 0.5rem;
+}
+
+.DigitalArchive__card-description {
+  font-size: 0.95rem;
+  color: #666;
+}

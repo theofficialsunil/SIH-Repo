@@ -1,0 +1,34 @@
+.VirtualTour {
+  padding: 3rem 1rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.VirtualTour__title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #2e3b55;
+}
+
+.VirtualTour__description {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.VirtualTour__viewer {
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.VirtualTour__iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+}

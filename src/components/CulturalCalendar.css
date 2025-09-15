@@ -1,0 +1,68 @@
+.CulturalCalendar {
+  padding: 3rem 1rem;
+  background-color: #fefefe;
+  text-align: center;
+}
+
+.CulturalCalendar__title {
+  font-size: 2rem;
+  color: #2e3b55;
+  margin-bottom: 0.5rem;
+}
+
+.CulturalCalendar__description {
+  font-size: 1.125rem;
+  color: #555;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.CulturalCalendar__list {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.CulturalCalendar__item {
+  display: flex;
+  background-color: #e3f2fd;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.CulturalCalendar__item:hover {
+  background-color: #bbdefb;
+}
+
+.CulturalCalendar__date {
+  flex: 0 0 110px;
+  font-weight: 700;
+  color: #1976d2;
+  font-size: 1.1rem;
+  border-right: 2px solid #1976d2;
+  padding-right: 1rem;
+  margin-right: 1rem;
+}
+
+.CulturalCalendar__content {
+  text-align: left;
+}
+
+.CulturalCalendar__event-title {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #0d47a1;
+}
+
+.CulturalCalendar__event-description {
+  margin: 0.25rem 0 0 0;
+  color: #333;
+  font-size: 1rem;
+}
